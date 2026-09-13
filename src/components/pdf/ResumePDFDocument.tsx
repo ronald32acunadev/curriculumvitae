@@ -207,7 +207,9 @@ export const ResumePDFDocument: React.FC<ResumePDFProps> = ({ data, language }) 
         {/* Profile / Summary */}
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>{sectionTitles.profile}</Text>
-          <Text style={styles.paragraph}>{data.summary}</Text>
+          {data.summary.split('\n\n').map((paragraph, idx) => (
+            <Text key={idx} style={styles.paragraph}>{paragraph}</Text>
+          ))}
         </View>
 
         {/* Languages */}

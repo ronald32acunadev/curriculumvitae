@@ -13,7 +13,7 @@ export const cvData: BilingualCVData = {
       githubUrl: "https://github.com/ronald32acunadev",
       portfolioUrl: "",
     },
-    summary: "Azure Cloud Solutions Architect, Technical Program Manager e Ingeniero de Inteligencia Artificial con sólida trayectoria como Senior Full Stack Developer en Java, C# y Python. Amplia experiencia en ingeniería de software, DevOps, ingeniería de datos y gestión de TI. Liderazgo comprobado en equipos multidisciplinarios y operaciones de servicios. Educador con experiencia desde niveles iniciales hasta universitarios, uniendo la excelencia técnica con la pasión por la enseñanza y la mentoría.",
+    summary: "Senior Full Stack Developer y Developer Team Lead con sólida experiencia en el diseño y desarrollo de soluciones de software robustas, escalables y orientadas a resultados. Especialista en el ecosistema .NET con C# como fortaleza principal, complementado con versatilidad en JavaScript, Python, Java, PHP y Ruby, así como en la gestión avanzada de bases de datos relacionales y NoSQL (SQL Server, PostgreSQL, Azure Cosmos DB). Con amplia trayectoria en la nube con Microsoft Azure, integrando además tecnologías en Google Firebase y AWS.\n\nMe distingo por un enfoque analítico, calmado y resiliente ante desafíos técnicos complejos, priorizando siempre la resolución pragmática de problemas. Apasionado por la investigación y adopción continua de nuevas tecnologías en el día a día, disfruto colaborar estrechamente en equipo a través de la comunicación asertiva, el diálogo constructivo y el liderazgo técnico empático.",
     languages: [
       { name: "Español", level: "Nativo" },
       { name: "Inglés", level: "C1+ Profesional (TOEIC)" },
@@ -235,7 +235,7 @@ export const cvData: BilingualCVData = {
       githubUrl: "https://github.com/ronald32acunadev",
       portfolioUrl: "",
     },
-    summary: "Azure Cloud Solutions Architect, Technical Program Manager, and AI Engineer with extensive experience as a Senior Full Stack Developer in Java, C#, and Python, coupled with a strong background in software engineering, DevOps, data engineering, and IT management. Proven leadership across cross-functional teams and service operations. Experienced educator from foundational to university levels, blending technical excellence with a genuine passion for teaching and mentorship.",
+    summary: "Senior Full Stack Developer and Developer Team Lead with extensive experience designing and building robust, scalable, and high-impact software solutions. Highly proficient in the .NET ecosystem with C# as my core strength, backed by versatile expertise across JavaScript, Python, Java, PHP, and Ruby, along with deep knowledge of relational and NoSQL databases (SQL Server, PostgreSQL, Azure Cosmos DB). Strong background in cloud solutions on Microsoft Azure, complemented by practical experience in Google Firebase and AWS.\n\nKnown for a calm, analytical, and solution-driven mindset when tackling complex technical challenges under pressure. Passionate about continuous research, experimentation, and integrating emerging technologies into daily workflows. Thrives in collaborative team environments driven by clear communication, constructive dialogue, and empathetic technical leadership.",
     languages: [
       { name: "Spanish", level: "Native" },
       { name: "English", level: "C1+ Professional (TOEIC)" },

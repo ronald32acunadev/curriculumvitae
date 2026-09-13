@@ -52,6 +52,6 @@ describe('CV Content Sections', () => {
 
   it('renders ContactSection with email and contact details', () => {
     renderWithProviders(<ContactSection />);
-    expect(screen.getByText(/ronald.dev@example.com/i)).toBeInTheDocument();
+    expect(screen.getByText(/ronald32acunadev@gmail.com/i)).toBeInTheDocument();
   });
 });

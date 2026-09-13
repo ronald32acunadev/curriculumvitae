@@ -3,14 +3,15 @@ import { BilingualCVData, UILabels } from '../types/cv';
 export const cvData: BilingualCVData = {
   es: {
     contact: {
-      name: "Ronald",
-      headline: "Azure Cloud Solutions Architect, Technical Program Manager & AI Engineer",
-      phone: "+506 8965-1446",
-      email: "ronald.dev@example.com",
-      location: "San Carlos, Alajuela, Costa Rica",
-      linkedinUrl: "https://www.linkedin.com/",
-      githubUrl: "https://github.com/",
-      portfolioUrl: "https://ronald.dev",
+      name: "Ronald Daniel Acuña Arias",
+      headline: "Senior Full Stack Developer & Developer Team Lead",
+      phone: "+506 8572-4776",
+      email: "ronald32acunadev@gmail.com",
+      secondaryEmails: ["ronald23acua@gmail.com", "ronald23acua@hotmail.com"],
+      location: "Venecia, San Carlos, Alajuela, Costa Rica",
+      linkedinUrl: "https://www.linkedin.com/in/ronald-daniel-acuna-arias-89263818b/",
+      githubUrl: "https://github.com/ronald32acunadev",
+      portfolioUrl: "",
     },
     summary: "Azure Cloud Solutions Architect, Technical Program Manager e Ingeniero de Inteligencia Artificial con sólida trayectoria como Senior Full Stack Developer en Java, C# y Python. Amplia experiencia en ingeniería de software, DevOps, ingeniería de datos y gestión de TI. Liderazgo comprobado en equipos multidisciplinarios y operaciones de servicios. Educador con experiencia desde niveles iniciales hasta universitarios, uniendo la excelencia técnica con la pasión por la enseñanza y la mentoría.",
     languages: [
@@ -224,14 +225,15 @@ export const cvData: BilingualCVData = {
   },
   en: {
     contact: {
-      name: "Ronald",
-      headline: "Azure Cloud Solutions Architect, Technical Program Manager & AI Engineer",
-      phone: "+506 8965-1446",
-      email: "ronald.dev@example.com",
-      location: "San Carlos, Alajuela, Costa Rica",
-      linkedinUrl: "https://www.linkedin.com/",
-      githubUrl: "https://github.com/",
-      portfolioUrl: "https://ronald.dev",
+      name: "Ronald Daniel Acuña Arias",
+      headline: "Senior Full Stack Developer & Developer Team Lead",
+      phone: "+506 8572-4776",
+      email: "ronald32acunadev@gmail.com",
+      secondaryEmails: ["ronald23acua@gmail.com", "ronald23acua@hotmail.com"],
+      location: "Venecia, San Carlos, Alajuela, Costa Rica",
+      linkedinUrl: "https://www.linkedin.com/in/ronald-daniel-acuna-arias-89263818b/",
+      githubUrl: "https://github.com/ronald32acunadev",
+      portfolioUrl: "",
     },
     summary: "Azure Cloud Solutions Architect, Technical Program Manager, and AI Engineer with extensive experience as a Senior Full Stack Developer in Java, C#, and Python, coupled with a strong background in software engineering, DevOps, data engineering, and IT management. Proven leadership across cross-functional teams and service operations. Experienced educator from foundational to university levels, blending technical excellence with a genuine passion for teaching and mentorship.",
     languages: [

@@ -37,9 +37,25 @@ export const ContactSection: React.FC = () => {
               <h3 className="text-base font-bold text-slate-900 dark:text-white mb-1">
                 Email
               </h3>
-              <p className="text-xs text-slate-500 dark:text-slate-400 mb-4 break-all">
+              <p className="text-xs font-semibold text-slate-800 dark:text-slate-200 break-all mb-2">
                 {contact.email}
               </p>
+              {contact.secondaryEmails && contact.secondaryEmails.length > 0 && (
+                <div className="mb-4 pt-2 border-t border-slate-100 dark:border-navy-700/50">
+                  <span className="text-[10px] uppercase font-semibold text-slate-400 dark:text-slate-500 block mb-1">
+                    Otros correos:
+                  </span>
+                  {contact.secondaryEmails.map((alt) => (
+                    <a
+                      key={alt}
+                      href={`mailto:${alt}`}
+                      className="block text-[11px] text-slate-500 hover:text-brand-500 dark:text-slate-400 dark:hover:text-accent-400 truncate"
+                    >
+                      {alt}
+                    </a>
+                  ))}
+                </div>
+              )}
             </div>
             <div className="flex items-center gap-2">
               <a

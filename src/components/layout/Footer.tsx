@@ -1,6 +1,7 @@
 import React from 'react';
 import { useLanguage } from '../../context/LanguageContext';
-import { Heart, Github, Linkedin, Mail } from 'lucide-react';
+import { Heart, Mail } from 'lucide-react';
+import { GithubIcon, LinkedinIcon } from '../ui/Icons';
 
 export const Footer: React.FC = () => {
   const { data, language } = useLanguage();
@@ -29,7 +30,7 @@ export const Footer: React.FC = () => {
                 className="p-2 rounded-lg text-slate-600 hover:text-brand-600 dark:text-slate-400 dark:hover:text-accent-400 hover:bg-slate-100 dark:hover:bg-navy-800 transition-colors"
                 aria-label="GitHub"
               >
-                <Github className="w-5 h-5" />
+                <GithubIcon className="w-5 h-5" />
               </a>
             )}
             {data.contact.linkedinUrl && (
@@ -40,7 +41,7 @@ export const Footer: React.FC = () => {
                 className="p-2 rounded-lg text-slate-600 hover:text-brand-600 dark:text-slate-400 dark:hover:text-accent-400 hover:bg-slate-100 dark:hover:bg-navy-800 transition-colors"
                 aria-label="LinkedIn"
               >
-                <Linkedin className="w-5 h-5" />
+                <LinkedinIcon className="w-5 h-5" />
               </a>
             )}
             {data.contact.email && (

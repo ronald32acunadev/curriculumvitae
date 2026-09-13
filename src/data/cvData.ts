@@ -19,36 +19,32 @@ export const cvData: BilingualCVData = {
       { name: "Inglés", level: "C1+ Profesional (TOEIC)" },
     ],
     softSkills: [
-      "Servicio al Cliente y Responsabilidad Profesional",
-      "Alta Adaptabilidad y Resolución Analítica de Problemas",
-      "Liderazgo Multidisciplinario y Mentoría Técnica",
-      "Planificación Estratégica y Mejora Continua",
-      "Toma de Decisiones Técnicas y Arquitectura"
+      "Trabajo en Equipo y Comunicación Asertiva",
+      "Alta Adaptabilidad al Cambio y Automejora Continua",
+      "Serenidad y Resolución Analítica de Problemas bajo Presión",
+      "Investigación e Implementación de Tecnologías Innovadoras",
+      "Responsabilidad Profesional y Liderazgo Técnico"
     ],
     technicalSkills: [
       {
         categoryName: "Lenguajes de Programación",
-        skills: ["C#", "Java", "Python", "TypeScript", "JavaScript", "SQL"]
+        skills: ["C# (.NET)", "JavaScript", "TypeScript", "Python", "Java", "PHP", "Ruby", "SQL"]
       },
       {
-        categoryName: "Cloud & DevOps",
-        skills: ["Microsoft Azure", "AWS", "Google Cloud (GCP)", "Docker", "Kubernetes", "GitHub Actions", "Azure DevOps", "CI/CD Pipelines"]
+        categoryName: "Frameworks & Ecosistemas",
+        skills: [".NET Core", "ASP.NET Core", "React", "Node.js", "Azure Functions", "Vite", "Android", "Laravel"]
+      },
+      {
+        categoryName: "Cloud, DevOps & Herramientas",
+        skills: ["Microsoft Azure", "Azure DevOps", "GitHub", "Google Firebase", "Amazon Web Services (AWS)", "Git"]
       },
       {
         categoryName: "Bases de Datos",
-        skills: ["PostgreSQL", "SQL Server", "Oracle", "Azure Cosmos DB", "Redis"]
+        skills: ["SQL Server", "Azure Cosmos DB", "PostgreSQL"]
       },
       {
-        categoryName: "AI Engineering & Herramientas",
-        skills: ["RAG", "LLMs", "Model Context Protocol (MCP)", "Generative AI", "AI Agents", "Azure AI Foundry", "Amazon Bedrock", "Google Vertex AI", "Claude Code", "OpenAI Codex"]
-      },
-      {
-        categoryName: "Metodologías & Prácticas",
-        skills: ["TDD (Test-Driven Development)", "AI-SDD / Specification-Driven Development", "Scrum", "XP", "Kanban"]
-      },
-      {
-        categoryName: "Sistemas de Gestión de Contenido",
-        skills: ["WordPress", "Drupal", "Joomla"]
+        categoryName: "Arquitectura & Metodologías",
+        skills: ["REST APIs", "Scrum", "Agile", "Clean Architecture", "Diseño de Soluciones"]
       }
     ],
     experience: [
@@ -241,36 +237,32 @@ export const cvData: BilingualCVData = {
       { name: "English", level: "C1+ Professional (TOEIC)" },
     ],
     softSkills: [
-      "Customer Service & Professional Responsibility",
-      "High Adaptability & Analytical Problem Solving",
-      "Cross-Functional Leadership & Technical Mentoring",
-      "Strategic Planning & Continuous Improvement",
-      "Technical Decision-Making & Architecture"
+      "Team Collaboration & Assertive Communication",
+      "High Adaptability to Change & Continuous Self-Improvement",
+      "Composure & Analytical Problem-Solving Under Pressure",
+      "Proactive Research & Implementation of Innovative Technologies",
+      "Professional Responsibility & Technical Leadership"
     ],
     technicalSkills: [
       {
         categoryName: "Programming Languages",
-        skills: ["C#", "Java", "Python", "TypeScript", "JavaScript", "SQL"]
+        skills: ["C# (.NET)", "JavaScript", "TypeScript", "Python", "Java", "PHP", "Ruby", "SQL"]
       },
       {
-        categoryName: "Cloud & DevOps",
-        skills: ["Microsoft Azure", "AWS", "Google Cloud (GCP)", "Docker", "Kubernetes", "GitHub Actions", "Azure DevOps", "CI/CD Pipelines"]
+        categoryName: "Frameworks & Ecosystems",
+        skills: [".NET Core", "ASP.NET Core", "React", "Node.js", "Azure Functions", "Vite", "Android", "Laravel"]
+      },
+      {
+        categoryName: "Cloud, DevOps & Tools",
+        skills: ["Microsoft Azure", "Azure DevOps", "GitHub", "Google Firebase", "Amazon Web Services (AWS)", "Git"]
       },
       {
         categoryName: "Databases",
-        skills: ["PostgreSQL", "SQL Server", "Oracle", "Azure Cosmos DB", "Redis"]
+        skills: ["SQL Server", "Azure Cosmos DB", "PostgreSQL"]
       },
       {
-        categoryName: "AI Engineering & Tools",
-        skills: ["RAG", "LLMs", "Model Context Protocol (MCP)", "Generative AI", "AI Agents", "Azure AI Foundry", "Amazon Bedrock", "Google Vertex AI", "Claude Code", "OpenAI Codex"]
-      },
-      {
-        categoryName: "Methods & Best Practices",
-        skills: ["TDD (Test-Driven Development)", "AI-SDD / Specification-Driven Development", "Scrum", "XP", "Kanban"]
-      },
-      {
-        categoryName: "Content Management Systems",
-        skills: ["WordPress", "Drupal", "Joomla"]
+        categoryName: "Architecture & Methodologies",
+        skills: ["REST APIs", "Scrum", "Agile", "Clean Architecture", "Solution Design"]
       }
     ],
     experience: [

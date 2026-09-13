@@ -32,7 +32,7 @@ export const cvData: BilingualCVData = {
       },
       {
         categoryName: "Frameworks & Ecosistemas",
-        skills: [".NET Core", "ASP.NET Core", "React", "Node.js", "Azure Functions", "Vite", "Android", "Laravel"]
+        skills: [".NET 10", ".NET Core", "ASP.NET Core", "React", "Node.js", "Azure Functions", "Vite", "Android", "Laravel"]
       },
       {
         categoryName: "Inteligencia Artificial & Modelos Locales",
@@ -63,10 +63,10 @@ export const cvData: BilingualCVData = {
         responsibilities: [
           "Liderazgo técnico y supervisión de desarrolladores, coordinando asignación de tareas, seguimiento de avances de sprints y estándares de calidad de código en múltiples proyectos empresariales.",
           "Administración y mantenimiento de pipelines de CI/CD en Azure DevOps y gestión de recursos en Microsoft Azure para proyectos corporativos (Cloud Connect, PIM Extender, CMI, EMTIP y Guardian365).",
-          "Liderazgo en el diseño y migración arquitectónica a .NET 6 para las soluciones insignia Guardian365 y Cloud Connect.",
+          "Liderazgo en el diseño y migración arquitectónica a .NET 10 para las soluciones insignia Guardian365 y Cloud Connect.",
           "Diseño, creación y publicación de paquetes internos NuGet reutilizables entre proyectos, optimizando la velocidad del equipo y unificando la arquitectura técnica."
         ],
-        technologies: [".NET 6", "C#", "Microsoft Azure", "Azure DevOps", "CI/CD", "NuGet", "REST APIs", "Scrum"]
+        technologies: [".NET 10", "C#", "Microsoft Azure", "Azure DevOps", "CI/CD", "NuGet", "REST APIs", "Scrum"]
       },
       {
         id: "exp-2",
@@ -128,7 +128,7 @@ export const cvData: BilingualCVData = {
       },
       {
         categoryName: "Frameworks & Ecosystems",
-        skills: [".NET Core", "ASP.NET Core", "React", "Node.js", "Azure Functions", "Vite", "Android", "Laravel"]
+        skills: [".NET 10", ".NET Core", "ASP.NET Core", "React", "Node.js", "Azure Functions", "Vite", "Android", "Laravel"]
       },
       {
         categoryName: "Generative AI & Local Models",
@@ -159,10 +159,10 @@ export const cvData: BilingualCVData = {
         responsibilities: [
           "Led and supervised development teams, managing sprint task assignments, monitoring project milestones, and enforcing clean code standards across multiple enterprise initiatives.",
           "Architected and maintained CI/CD pipelines in Azure DevOps and managed Microsoft Azure cloud infrastructure and resources for mission-critical enterprise projects (Cloud Connect, PIM Extender, CMI, EMTIP, and Guardian365).",
-          "Spearheaded the architectural migration and development of new versions on .NET 6 for flagship platforms Guardian365 and Cloud Connect.",
+          "Spearheaded the architectural migration and development of new versions on .NET 10 for flagship platforms Guardian365 and Cloud Connect.",
           "Authored, versioned, and published shared internal NuGet packages reused across multiple company projects, accelerating developer productivity and architectural consistency."
         ],
-        technologies: [".NET 6", "C#", "Microsoft Azure", "Azure DevOps", "CI/CD", "NuGet", "REST APIs", "Scrum"]
+        technologies: [".NET 10", "C#", "Microsoft Azure", "Azure DevOps", "CI/CD", "NuGet", "REST APIs", "Scrum"]
       },
       {
         id: "exp-2",

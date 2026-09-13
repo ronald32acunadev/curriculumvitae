@@ -1,14 +1,11 @@
 import React from 'react';
 import { useLanguage } from '../../context/LanguageContext';
 import { Badge } from '../ui/Badge';
-import { MapPin, Mail, Phone, ExternalLink, Sparkles, ArrowRight } from 'lucide-react';
+import { MapPin, Mail, Phone, ExternalLink, ArrowRight } from 'lucide-react';
 import { GithubIcon, LinkedinIcon } from '../ui/Icons';
+import { PDFDownloadButton } from '../pdf/PDFDownloadButton';
 
-interface HeroSectionProps {
-  onDownloadPdf?: () => void;
-}
-
-export const HeroSection: React.FC<HeroSectionProps> = ({ onDownloadPdf }) => {
+export const HeroSection: React.FC = () => {
   const { data, labels, language } = useLanguage();
   const { contact } = data;
 
@@ -72,13 +69,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onDownloadPdf }) => {
 
           {/* Action CTAs */}
           <div className="mt-8 flex flex-wrap items-center gap-4">
-            <button
-              onClick={onDownloadPdf}
-              className="flex items-center gap-2 px-6 py-3 rounded-xl text-sm font-semibold bg-gradient-to-r from-brand-600 to-brand-700 hover:from-brand-700 hover:to-brand-800 text-white shadow-lg shadow-brand-500/20 active:scale-95 transition-all"
-            >
-              <Sparkles className="w-4 h-4 text-accent-300" />
-              <span>{labels.actions.downloadResume}</span>
-            </button>
+            <PDFDownloadButton />
 
             <a
               href="#contact"

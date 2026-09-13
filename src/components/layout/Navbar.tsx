@@ -1,14 +1,10 @@
 import React, { useState } from 'react';
 import { useTheme } from '../../context/ThemeContext';
 import { useLanguage } from '../../context/LanguageContext';
-import { Sun, Moon, Globe, Menu, X, FileDown } from 'lucide-react';
+import { PDFDownloadButton } from '../pdf/PDFDownloadButton';
+import { Sun, Moon, Globe, Menu, X } from 'lucide-react';
 
-interface NavbarProps {
-  onDownloadPdf?: () => void;
-  isGeneratingPdf?: boolean;
-}
-
-export const Navbar: React.FC<NavbarProps> = ({ onDownloadPdf, isGeneratingPdf = false }) => {
+export const Navbar: React.FC = () => {
   const { theme, toggleTheme } = useTheme();
   const { language, toggleLanguage, labels } = useLanguage();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -75,14 +71,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onDownloadPdf, isGeneratingPdf =
             </button>
 
             {/* Download PDF Button */}
-            <button
-              onClick={onDownloadPdf}
-              disabled={isGeneratingPdf}
-              className="flex items-center gap-2 px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-brand-600 hover:bg-brand-700 active:bg-brand-800 text-white shadow-sm transition-all disabled:opacity-50"
-            >
-              <FileDown className="w-4 h-4" />
-              <span>{isGeneratingPdf ? labels.nav.generatingPdf : labels.nav.downloadPdf}</span>
-            </button>
+            <PDFDownloadButton variant="navbar" />
           </div>
 
           {/* Mobile Menu Button */}
@@ -126,17 +115,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onDownloadPdf, isGeneratingPdf =
             </a>
           ))}
           <div className="pt-2">
-            <button
-              onClick={() => {
-                setMobileMenuOpen(false);
-                onDownloadPdf?.();
-              }}
-              disabled={isGeneratingPdf}
-              className="w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg text-sm font-semibold bg-brand-600 hover:bg-brand-700 text-white shadow"
-            >
-              <FileDown className="w-4 h-4" />
-              <span>{isGeneratingPdf ? labels.nav.generatingPdf : labels.nav.downloadPdf}</span>
-            </button>
+            <PDFDownloadButton className="w-full" />
           </div>
         </div>
       )}

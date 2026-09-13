@@ -13,7 +13,7 @@ export const cvData: BilingualCVData = {
       githubUrl: "https://github.com/ronald32acunadev",
       portfolioUrl: "",
     },
-    summary: "Senior Full Stack Developer y Developer Team Lead con sólida experiencia en el diseño y desarrollo de soluciones de software robustas, escalables y orientadas a resultados. Especialista en el ecosistema .NET con C# como fortaleza principal, complementado con versatilidad en JavaScript, Python, Java, PHP y Ruby, así como en la gestión avanzada de bases de datos relacionales y NoSQL (SQL Server, PostgreSQL, Azure Cosmos DB). Con amplia trayectoria en la nube con Microsoft Azure, integrando además tecnologías en Google Firebase y AWS.\n\nMe distingo por un enfoque analítico, calmado y resiliente ante desafíos técnicos complejos, priorizando siempre la resolución pragmática de problemas. Apasionado por la investigación y adopción continua de nuevas tecnologías en el día a día, disfruto colaborar estrechamente en equipo a través de la comunicación asertiva, el diálogo constructivo y el liderazgo técnico empático.",
+    summary: "Senior Full Stack Developer y Developer Team Lead con sólida experiencia en el diseño y desarrollo de soluciones de software robustas, escalables y orientadas a resultados. Especialista en el ecosistema .NET con C# como fortaleza principal, complementado con versatilidad en JavaScript, Python, Java, PHP y Ruby, así como en la gestión avanzada de bases de datos relacionales y NoSQL (SQL Server, PostgreSQL, Azure Cosmos DB). Con amplia trayectoria en la nube con Microsoft Azure, integrando además tecnologías en Google Firebase y AWS.\n\nMe distingo por un enfoque analítico, calmado y resiliente ante desafíos técnicos complejos, priorizando siempre la resolución pragmática de problemas. Apasionado por la investigación y adopción continua de nuevas tecnologías en el día a día, integrando activamente herramientas de Inteligencia Artificial (Google Antigravity, Claude, ChatGPT) y ejecución de modelos locales (LM Studio, OpenCode) para potenciar la productividad y la calidad del desarrollo. Disfruto colaborar estrechamente en equipo a través de la comunicación asertiva, el diálogo constructivo y el liderazgo técnico empático.",
     languages: [
       { name: "Español", level: "Nativo" },
       { name: "Inglés", level: "B2 Intermedio-Avanzado (Profesional)" },
@@ -33,6 +33,10 @@ export const cvData: BilingualCVData = {
       {
         categoryName: "Frameworks & Ecosistemas",
         skills: [".NET Core", "ASP.NET Core", "React", "Node.js", "Azure Functions", "Vite", "Android", "Laravel"]
+      },
+      {
+        categoryName: "Inteligencia Artificial & Modelos Locales",
+        skills: ["Modelos de IA Locales (Local LLMs)", "LM Studio", "OpenCode", "Google Antigravity", "Claude (Anthropic)", "ChatGPT (OpenAI)", "Prompt Engineering & IA Asistida"]
       },
       {
         categoryName: "Cloud, DevOps & Herramientas",
@@ -105,7 +109,7 @@ export const cvData: BilingualCVData = {
       githubUrl: "https://github.com/ronald32acunadev",
       portfolioUrl: "",
     },
-    summary: "Senior Full Stack Developer and Developer Team Lead with extensive experience designing and building robust, scalable, and high-impact software solutions. Highly proficient in the .NET ecosystem with C# as my core strength, backed by versatile expertise across JavaScript, Python, Java, PHP, and Ruby, along with deep knowledge of relational and NoSQL databases (SQL Server, PostgreSQL, Azure Cosmos DB). Strong background in cloud solutions on Microsoft Azure, complemented by practical experience in Google Firebase and AWS.\n\nKnown for a calm, analytical, and solution-driven mindset when tackling complex technical challenges under pressure. Passionate about continuous research, experimentation, and integrating emerging technologies into daily workflows. Thrives in collaborative team environments driven by clear communication, constructive dialogue, and empathetic technical leadership.",
+    summary: "Senior Full Stack Developer and Developer Team Lead with extensive experience designing and building robust, scalable, and high-impact software solutions. Highly proficient in the .NET ecosystem with C# as my core strength, backed by versatile expertise across JavaScript, Python, Java, PHP, and Ruby, along with deep knowledge of relational and NoSQL databases (SQL Server, PostgreSQL, Azure Cosmos DB). Strong background in cloud solutions on Microsoft Azure, complemented by practical experience in Google Firebase and AWS.\n\nKnown for a calm, analytical, and solution-driven mindset when tackling complex technical challenges under pressure. Passionate about continuous research, experimentation, and integrating emerging technologies into daily workflows, actively leveraging AI developer assistants (Google Antigravity, Claude, ChatGPT) and local open-source LLM environments (LM Studio, OpenCode) to accelerate engineering velocity and software quality. Thrives in collaborative team environments driven by clear communication, constructive dialogue, and empathetic technical leadership.",
     languages: [
       { name: "Spanish", level: "Native" },
       { name: "English", level: "B2 Professional / Upper-Intermediate" },
@@ -125,6 +129,10 @@ export const cvData: BilingualCVData = {
       {
         categoryName: "Frameworks & Ecosystems",
         skills: [".NET Core", "ASP.NET Core", "React", "Node.js", "Azure Functions", "Vite", "Android", "Laravel"]
+      },
+      {
+        categoryName: "Generative AI & Local Models",
+        skills: ["Local LLMs & On-Premises Models", "LM Studio", "OpenCode", "Google Antigravity", "Claude (Anthropic)", "ChatGPT (OpenAI)", "Prompt Engineering & AI-Assisted Dev"]
       },
       {
         categoryName: "Cloud, DevOps & Tools",

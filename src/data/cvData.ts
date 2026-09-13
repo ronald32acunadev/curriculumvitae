@@ -58,8 +58,8 @@ export const cvData: BilingualCVData = {
         role: "Developer Team Lead",
         location: "Estados Unidos (Remoto desde Costa Rica)",
         workplaceType: "Remote",
-        startDate: "2019/02",
-        endDate: "2026/02",
+        startDate: "2019/07",
+        endDate: "2026/08",
         responsibilities: [
           "Liderazgo técnico y supervisión de desarrolladores, coordinando asignación de tareas, seguimiento de avances de sprints y estándares de calidad de código en múltiples proyectos empresariales.",
           "Administración y mantenimiento de pipelines de CI/CD en Azure DevOps y gestión de recursos en Microsoft Azure para proyectos corporativos (Cloud Connect, PIM Extender, CMI, EMTIP y Guardian365).",
@@ -74,8 +74,8 @@ export const cvData: BilingualCVData = {
         role: "Full Stack Developer",
         location: "Ciudad Quesada, Alajuela, Costa Rica",
         workplaceType: "On-Site",
-        startDate: "2015/01",
-        endDate: "2019/01",
+        startDate: "2015/03",
+        endDate: "2019/06",
         responsibilities: [
           "Desarrollo, mejora continua y mantenimiento de un sistema de alta criticidad para la generación de avalúos para diversas entidades bancarias, utilizado diariamente por ingenieros y peritos.",
           "Comunicación técnica directa y colaboración con ingenieros peritos y entidades financieras para resolver consultas, levantar requerimientos y solucionar incidencias operativas.",
@@ -154,8 +154,8 @@ export const cvData: BilingualCVData = {
         role: "Developer Team Lead",
         location: "United States (Remote from Costa Rica)",
         workplaceType: "Remote",
-        startDate: "2019/02",
-        endDate: "2026/02",
+        startDate: "2019/07",
+        endDate: "2026/08",
         responsibilities: [
           "Led and supervised development teams, managing sprint task assignments, monitoring project milestones, and enforcing clean code standards across multiple enterprise initiatives.",
           "Architected and maintained CI/CD pipelines in Azure DevOps and managed Microsoft Azure cloud infrastructure and resources for mission-critical enterprise projects (Cloud Connect, PIM Extender, CMI, EMTIP, and Guardian365).",
@@ -170,8 +170,8 @@ export const cvData: BilingualCVData = {
         role: "Full Stack Developer",
         location: "Ciudad Quesada, Alajuela, Costa Rica",
         workplaceType: "On-Site",
-        startDate: "2015/01",
-        endDate: "2019/01",
+        startDate: "2015/03",
+        endDate: "2019/06",
         responsibilities: [
           "Developed, enhanced, and maintained a mission-critical appraisal valuation system used by major banking and financial entities and certified appraisal engineers.",
           "Directly engaged with appraisal engineers and banking stakeholders to troubleshoot operational issues, clarify business requirements, and provide rapid technical support.",

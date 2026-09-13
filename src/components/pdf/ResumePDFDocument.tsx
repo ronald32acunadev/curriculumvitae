@@ -281,17 +281,19 @@ export const ResumePDFDocument: React.FC<ResumePDFProps> = ({ data, language }) 
           ))}
         </View>
 
-        {/* Certifications */}
-        <View style={styles.section}>
-          <Text style={styles.sectionTitle}>{sectionTitles.certifications}</Text>
-          {data.certifications.map((cert) => (
-            <View key={cert.id} style={styles.certItem} wrap={false}>
-              <Text style={styles.paragraph}>
-                <Text style={styles.skillTitle}>{cert.title}</Text> – {cert.issuer} ({cert.date})
-              </Text>
-            </View>
-          ))}
-        </View>
+        {/* Certifications (if present) */}
+        {data.certifications && data.certifications.length > 0 && (
+          <View style={styles.section}>
+            <Text style={styles.sectionTitle}>{sectionTitles.certifications}</Text>
+            {data.certifications.map((cert) => (
+              <View key={cert.id} style={styles.certItem} wrap={false}>
+                <Text style={styles.paragraph}>
+                  <Text style={styles.skillTitle}>{cert.title}</Text> – {cert.issuer} ({cert.date})
+                </Text>
+              </View>
+            ))}
+          </View>
+        )}
 
         {/* Page Footer */}
         <Text

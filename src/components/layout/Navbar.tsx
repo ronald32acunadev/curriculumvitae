@@ -6,7 +6,7 @@ import { Sun, Moon, Globe, Menu, X } from 'lucide-react';
 
 export const Navbar: React.FC = () => {
   const { theme, toggleTheme } = useTheme();
-  const { language, toggleLanguage, labels } = useLanguage();
+  const { language, toggleLanguage, labels, data } = useLanguage();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navItems = [
@@ -14,7 +14,9 @@ export const Navbar: React.FC = () => {
     { label: labels.nav.skills, href: '#skills' },
     { label: labels.nav.experience, href: '#experience' },
     { label: labels.nav.education, href: '#education' },
-    { label: labels.nav.certifications, href: '#certifications' },
+    ...(data.certifications && data.certifications.length > 0
+      ? [{ label: labels.nav.certifications, href: '#certifications' }]
+      : []),
     { label: labels.nav.contact, href: '#contact' },
   ];
 

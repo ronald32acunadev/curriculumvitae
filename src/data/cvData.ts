@@ -16,7 +16,7 @@ export const cvData: BilingualCVData = {
     summary: "Senior Full Stack Developer y Developer Team Lead con sólida experiencia en el diseño y desarrollo de soluciones de software robustas, escalables y orientadas a resultados. Especialista en el ecosistema .NET con C# como fortaleza principal, complementado con versatilidad en JavaScript, Python, Java, PHP y Ruby, así como en la gestión avanzada de bases de datos relacionales y NoSQL (SQL Server, PostgreSQL, Azure Cosmos DB). Con amplia trayectoria en la nube con Microsoft Azure, integrando además tecnologías en Google Firebase y AWS.\n\nMe distingo por un enfoque analítico, calmado y resiliente ante desafíos técnicos complejos, priorizando siempre la resolución pragmática de problemas. Apasionado por la investigación y adopción continua de nuevas tecnologías en el día a día, disfruto colaborar estrechamente en equipo a través de la comunicación asertiva, el diálogo constructivo y el liderazgo técnico empático.",
     languages: [
       { name: "Español", level: "Nativo" },
-      { name: "Inglés", level: "C1+ Profesional (TOEIC)" },
+      { name: "Inglés", level: "B2 Intermedio-Avanzado (Profesional)" },
     ],
     softSkills: [
       "Trabajo en Equipo y Comunicación Asertiva",
@@ -83,98 +83,15 @@ export const cvData: BilingualCVData = {
     education: [
       {
         id: "edu-1",
-        degree: "Diplomado Técnico en Ingeniería de Inteligencia Artificial",
-        institution: "PLATZI",
-        location: "Colombia (Virtual)",
-        startDate: "2025/11",
-        endDate: "Presente",
-        description: "Formación especializada en agentes de IA, RAG, LLMs, modelos generativos e integración en producción."
-      },
-      {
-        id: "edu-2",
-        degree: "Licenciatura en Ingeniería del Software",
+        degree: "Bachillerato en Ingeniería del Software",
         institution: "Universidad Técnica Nacional (UTN)",
-        location: "Costa Rica (Presencial)",
+        location: "Costa Rica",
         startDate: "2013/01",
         endDate: "2017/12",
-        description: "Enfoque en arquitectura de software, patrones de diseño, desarrollo web y bases de datos relacionales."
-      },
-      {
-        id: "edu-3",
-        degree: "Diplomado en Ingeniería de Tecnologías de Información",
-        institution: "Universidad Técnica Nacional (UTN)",
-        location: "Costa Rica (Presencial)",
-        startDate: "2012/09",
-        endDate: "2015/06",
-        description: "Fundamentos de redes, sistemas operativos, programación y telecomunicaciones."
-      },
-      {
-        id: "edu-4",
-        degree: "Técnico Medio en Redes de Computadoras",
-        institution: "Colegio Técnico Profesional Regional de San Carlos",
-        location: "Costa Rica (Presencial)",
-        startDate: "2003/02",
-        endDate: "2006/12",
-        description: "Certificación técnica en infraestructura de redes cableadas e inalámbricas y mantenimiento preventivo."
+        description: "Graduado en Diciembre de 2017. Formación integral en arquitectura de software, metodologías de desarrollo, bases de datos y diseño de soluciones empresariales."
       }
     ],
-    certifications: [
-      {
-        id: "cert-1",
-        title: "Design Microsoft Azure Infrastructure Solutions",
-        issuer: "Microsoft",
-        date: "2026/08",
-        verificationUrl: "https://learn.microsoft.com/certifications/",
-        credentialType: "online"
-      },
-      {
-        id: "cert-2",
-        title: "Microsoft 365 Administrator",
-        issuer: "Microsoft",
-        date: "2026/08",
-        verificationUrl: "https://learn.microsoft.com/certifications/",
-        credentialType: "online"
-      },
-      {
-        id: "cert-3",
-        title: "AI-SSD Training: Specification Driven Development with AI & Semantic Kernel",
-        issuer: "Google & Entrenamiento Certero",
-        date: "2026/07",
-        verificationUrl: "https://entrenamientocertero.com",
-        credentialType: "online"
-      },
-      {
-        id: "cert-4",
-        title: "Model Context Protocol: Advanced Topics",
-        issuer: "Anthropic",
-        date: "2026/05",
-        verificationUrl: "https://anthropic.com",
-        credentialType: "online"
-      },
-      {
-        id: "cert-5",
-        title: "Claude with Google Cloud's Vertex AI",
-        issuer: "Google & Anthropic",
-        date: "2026/05",
-        verificationUrl: "https://cloud.google.com/vertex-ai",
-        credentialType: "online"
-      },
-      {
-        id: "cert-6",
-        title: "AZ-400: Designing & Implementing Microsoft DevOps Solutions",
-        issuer: "Microsoft",
-        date: "2026/06",
-        verificationUrl: "https://learn.microsoft.com/certifications/",
-        credentialType: "online"
-      },
-      {
-        id: "cert-7",
-        title: "Cybersecurity Essentials",
-        issuer: "CISCO Academy & UTN",
-        date: "2019/11",
-        credentialType: "physical"
-      }
-    ]
+    certifications: []
   },
   en: {
     contact: {
@@ -191,7 +108,7 @@ export const cvData: BilingualCVData = {
     summary: "Senior Full Stack Developer and Developer Team Lead with extensive experience designing and building robust, scalable, and high-impact software solutions. Highly proficient in the .NET ecosystem with C# as my core strength, backed by versatile expertise across JavaScript, Python, Java, PHP, and Ruby, along with deep knowledge of relational and NoSQL databases (SQL Server, PostgreSQL, Azure Cosmos DB). Strong background in cloud solutions on Microsoft Azure, complemented by practical experience in Google Firebase and AWS.\n\nKnown for a calm, analytical, and solution-driven mindset when tackling complex technical challenges under pressure. Passionate about continuous research, experimentation, and integrating emerging technologies into daily workflows. Thrives in collaborative team environments driven by clear communication, constructive dialogue, and empathetic technical leadership.",
     languages: [
       { name: "Spanish", level: "Native" },
-      { name: "English", level: "C1+ Professional (TOEIC)" },
+      { name: "English", level: "B2 Professional / Upper-Intermediate" },
     ],
     softSkills: [
       "Team Collaboration & Assertive Communication",
@@ -258,98 +175,15 @@ export const cvData: BilingualCVData = {
     education: [
       {
         id: "edu-1",
-        degree: "Technical Diploma in AI Engineering",
-        institution: "PLATZI",
-        location: "Colombia (Virtual)",
-        startDate: "2025/11",
-        endDate: "Present",
-        description: "Specialized training in AI agents, RAG workflows, LLM orchestration, and production deployments."
-      },
-      {
-        id: "edu-2",
-        degree: "Bachelor's Degree in Software Engineering",
+        degree: "Bachelor of Software Engineering",
         institution: "Universidad Técnica Nacional (UTN)",
-        location: "Costa Rica (On-Site)",
+        location: "Costa Rica",
         startDate: "2013/01",
         endDate: "2017/12",
-        description: "In-depth curriculum in software engineering, design patterns, database architecture, and algorithms."
-      },
-      {
-        id: "edu-3",
-        degree: "Diploma in Information Technology Engineering",
-        institution: "Universidad Técnica Nacional (UTN)",
-        location: "Costa Rica (On-Site)",
-        startDate: "2012/09",
-        endDate: "2015/06",
-        description: "Core studies in networking, systems administration, applied programming, and hardware architecture."
-      },
-      {
-        id: "edu-4",
-        degree: "Technical Diploma in Computer Networking",
-        institution: "Colegio Técnico Profesional Regional de San Carlos",
-        location: "Costa Rica (On-Site)",
-        startDate: "2003/02",
-        endDate: "2006/12",
-        description: "Vocational degree in wired/wireless networking topologies and hardware diagnostics."
+        description: "Graduated in December 2017. Comprehensive curriculum in software architecture, systems engineering, relational databases, and enterprise software design."
       }
     ],
-    certifications: [
-      {
-        id: "cert-1",
-        title: "Design Microsoft Azure Infrastructure Solutions",
-        issuer: "Microsoft",
-        date: "2026/08",
-        verificationUrl: "https://learn.microsoft.com/certifications/",
-        credentialType: "online"
-      },
-      {
-        id: "cert-2",
-        title: "Microsoft 365 Administrator",
-        issuer: "Microsoft",
-        date: "2026/08",
-        verificationUrl: "https://learn.microsoft.com/certifications/",
-        credentialType: "online"
-      },
-      {
-        id: "cert-3",
-        title: "AI-SSD Training: Specification Driven Development with AI & Semantic Kernel",
-        issuer: "Google & Entrenamiento Certero",
-        date: "2026/07",
-        verificationUrl: "https://entrenamientocertero.com",
-        credentialType: "online"
-      },
-      {
-        id: "cert-4",
-        title: "Model Context Protocol: Advanced Topics",
-        issuer: "Anthropic",
-        date: "2026/05",
-        verificationUrl: "https://anthropic.com",
-        credentialType: "online"
-      },
-      {
-        id: "cert-5",
-        title: "Claude with Google Cloud's Vertex AI",
-        issuer: "Google & Anthropic",
-        date: "2026/05",
-        verificationUrl: "https://cloud.google.com/vertex-ai",
-        credentialType: "online"
-      },
-      {
-        id: "cert-6",
-        title: "AZ-400: Designing & Implementing Microsoft DevOps Solutions",
-        issuer: "Microsoft",
-        date: "2026/06",
-        verificationUrl: "https://learn.microsoft.com/certifications/",
-        credentialType: "online"
-      },
-      {
-        id: "cert-7",
-        title: "Cybersecurity Essentials",
-        issuer: "CISCO Academy & UTN",
-        date: "2019/11",
-        credentialType: "physical"
-      }
-    ]
+    certifications: []
   }
 };
 

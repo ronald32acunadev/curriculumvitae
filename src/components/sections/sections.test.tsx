@@ -46,8 +46,8 @@ describe('CV Content Sections', () => {
         <CertificationsSection />
       </>
     );
-    expect(screen.getByText(/PLATZI/i)).toBeInTheDocument();
-    expect(screen.getByText(/Design Microsoft Azure Infrastructure Solutions/i)).toBeInTheDocument();
+    expect(screen.getByText(/Universidad Técnica Nacional/i)).toBeInTheDocument();
+    expect(screen.getByText(/Bachillerato en Ingeniería del Software/i)).toBeInTheDocument();
   });
 
   it('renders ContactSection with email and contact details', () => {

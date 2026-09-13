@@ -17,7 +17,7 @@ describe('cvData bilingual dataset integrity', () => {
     expect(es.softSkills.length).toBeGreaterThan(0);
     expect(es.experience.length).toBeGreaterThan(0);
     expect(es.education.length).toBeGreaterThan(0);
-    expect(es.certifications.length).toBeGreaterThan(0);
+    expect(Array.isArray(es.certifications)).toBe(true);
     expect(es.languages.length).toBeGreaterThan(0);
   });
 
@@ -31,7 +31,7 @@ describe('cvData bilingual dataset integrity', () => {
     expect(en.softSkills.length).toBeGreaterThan(0);
     expect(en.experience.length).toBeGreaterThan(0);
     expect(en.education.length).toBeGreaterThan(0);
-    expect(en.certifications.length).toBeGreaterThan(0);
+    expect(Array.isArray(en.certifications)).toBe(true);
     expect(en.languages.length).toBeGreaterThan(0);
   });
 });

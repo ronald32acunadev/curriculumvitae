@@ -8,6 +8,10 @@ import { Award, ExternalLink, ShieldCheck } from 'lucide-react';
 export const CertificationsSection: React.FC = () => {
   const { data, labels } = useLanguage();
 
+  if (!data.certifications || data.certifications.length === 0) {
+    return null;
+  }
+
   return (
     <section id="certifications" className="py-12 border-t border-slate-200/60 dark:border-navy-800/60">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

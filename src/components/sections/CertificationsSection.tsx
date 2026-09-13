@@ -25,7 +25,7 @@ export const CertificationsSection: React.FC = () => {
             <Card
               key={cert.id}
               hoverEffect
-              className="p-5 flex flex-col justify-between border-t-2 border-t-brand-500"
+              className="p-5 flex flex-col justify-between border-t-[3px] border-t-brand-600 dark:border-t-brand-500"
             >
               <div>
                 <div className="flex items-start justify-between gap-2 mb-2">
@@ -42,13 +42,13 @@ export const CertificationsSection: React.FC = () => {
                 </h3>
               </div>
 
-              <div className="pt-3 border-t border-slate-100 dark:border-navy-700/60 flex items-center justify-between">
+              <div className="pt-3 border-t border-slate-100/90 dark:border-navy-800/80 flex items-center justify-between">
                 {cert.verificationUrl ? (
                   <a
                     href={cert.verificationUrl}
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-flex items-center gap-1 text-xs font-semibold text-brand-600 dark:text-accent-400 hover:underline"
+                    className="inline-flex items-center gap-1.5 text-xs font-semibold text-brand-600 dark:text-accent-400 hover:text-brand-700 dark:hover:text-accent-300 transition-colors"
                   >
                     <ShieldCheck className="w-3.5 h-3.5" />
                     <span>{labels.actions.viewCredential}</span>

@@ -8,7 +8,7 @@ export const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="border-t border-slate-200 dark:border-navy-800 bg-white/50 dark:bg-navy-950/50 py-12 mt-20 transition-colors">
+    <footer className="border-t border-slate-200/80 dark:border-navy-800/80 bg-white/60 dark:bg-navy-950/60 backdrop-blur-sm py-12 mt-20 transition-colors">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
@@ -21,13 +21,13 @@ export const Footer: React.FC = () => {
           </div>
 
           {/* Social icons */}
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-2.5">
             {data.contact.githubUrl && (
               <a
                 href={data.contact.githubUrl}
                 target="_blank"
                 rel="noreferrer"
-                className="p-2 rounded-lg text-slate-600 hover:text-brand-600 dark:text-slate-400 dark:hover:text-accent-400 hover:bg-slate-100 dark:hover:bg-navy-800 transition-colors"
+                className="p-2 rounded-md border border-slate-200/70 dark:border-navy-800/80 bg-white/50 dark:bg-navy-900/50 text-slate-600 hover:text-brand-600 dark:text-slate-400 dark:hover:text-accent-400 hover:bg-slate-100/80 dark:hover:bg-navy-800/80 shadow-sm transition-all"
                 aria-label="GitHub"
               >
                 <GithubIcon className="w-5 h-5" />
@@ -38,7 +38,7 @@ export const Footer: React.FC = () => {
                 href={data.contact.linkedinUrl}
                 target="_blank"
                 rel="noreferrer"
-                className="p-2 rounded-lg text-slate-600 hover:text-brand-600 dark:text-slate-400 dark:hover:text-accent-400 hover:bg-slate-100 dark:hover:bg-navy-800 transition-colors"
+                className="p-2 rounded-md border border-slate-200/70 dark:border-navy-800/80 bg-white/50 dark:bg-navy-900/50 text-slate-600 hover:text-brand-600 dark:text-slate-400 dark:hover:text-accent-400 hover:bg-slate-100/80 dark:hover:bg-navy-800/80 shadow-sm transition-all"
                 aria-label="LinkedIn"
               >
                 <LinkedinIcon className="w-5 h-5" />
@@ -47,7 +47,7 @@ export const Footer: React.FC = () => {
             {data.contact.email && (
               <a
                 href={`mailto:${data.contact.email}`}
-                className="p-2 rounded-lg text-slate-600 hover:text-brand-600 dark:text-slate-400 dark:hover:text-accent-400 hover:bg-slate-100 dark:hover:bg-navy-800 transition-colors"
+                className="p-2 rounded-md border border-slate-200/70 dark:border-navy-800/80 bg-white/50 dark:bg-navy-900/50 text-slate-600 hover:text-brand-600 dark:text-slate-400 dark:hover:text-accent-400 hover:bg-slate-100/80 dark:hover:bg-navy-800/80 shadow-sm transition-all"
                 aria-label="Email"
               >
                 <Mail className="w-5 h-5" />

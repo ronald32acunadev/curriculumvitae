@@ -48,7 +48,7 @@ export const PDFDownloadButton: React.FC<PDFDownloadButtonProps> = ({
       <button
         onClick={handleDownload}
         disabled={isGenerating}
-        className={`flex items-center gap-2 px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-brand-600 hover:bg-brand-700 active:bg-brand-800 text-white shadow-sm transition-all disabled:opacity-50 ${className}`}
+        className={`flex items-center gap-2 px-3.5 py-1.5 rounded-md text-xs font-semibold bg-brand-600 hover:bg-brand-500 active:bg-brand-700 text-white shadow-sm transition-all disabled:opacity-50 ${className}`}
         aria-label="Download ATS PDF Resume"
       >
         {isGenerating ? (
@@ -65,7 +65,7 @@ export const PDFDownloadButton: React.FC<PDFDownloadButtonProps> = ({
     <button
       onClick={handleDownload}
       disabled={isGenerating}
-      className={`flex items-center justify-center gap-2 px-6 py-3 rounded-xl text-sm font-semibold bg-gradient-to-r from-brand-600 to-brand-700 hover:from-brand-700 hover:to-brand-800 text-white shadow-lg shadow-brand-500/20 active:scale-95 transition-all disabled:opacity-60 ${className}`}
+      className={`flex items-center justify-center gap-2.5 px-6 py-3 rounded-lg text-sm font-semibold bg-brand-600 hover:bg-brand-500 active:bg-brand-700 text-white shadow-sm hover:shadow-md transition-all active:scale-[0.99] disabled:opacity-60 ${className}`}
       aria-label="Download ATS PDF Resume"
     >
       {isGenerating ? (

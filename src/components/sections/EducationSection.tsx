@@ -15,26 +15,26 @@ export const EducationSection: React.FC = () => {
           icon={<GraduationCap className="w-5 h-5" />}
         />
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           {data.education.map((edu) => (
-            <Card key={edu.id} hoverEffect className="flex flex-col justify-between p-6">
+            <Card key={edu.id} hoverEffect className="flex flex-col justify-between p-5 sm:p-6">
               <div>
                 <div className="flex items-start justify-between gap-2 mb-2">
                   <h3 className="text-base sm:text-lg font-bold text-slate-900 dark:text-white">
                     {edu.degree}
                   </h3>
-                  <span className="inline-flex items-center gap-1 text-xs font-medium text-slate-500 dark:text-slate-400 bg-slate-100 dark:bg-navy-900 px-2 py-0.5 rounded shrink-0">
-                    <Calendar className="w-3 h-3" />
-                    {edu.startDate} - {edu.endDate}
+                  <span className="inline-flex items-center gap-1.5 text-xs font-medium text-slate-600 dark:text-slate-300 bg-slate-100/80 dark:bg-navy-900/80 border border-slate-200/60 dark:border-navy-700/60 px-2.5 py-1 rounded-md shrink-0">
+                    <Calendar className="w-3.5 h-3.5 text-brand-500" />
+                    <span>{edu.startDate} - {edu.endDate}</span>
                   </span>
                 </div>
 
-                <p className="text-sm font-semibold text-brand-600 dark:text-brand-400 mb-1">
+                <p className="text-sm font-semibold text-brand-600 dark:text-accent-400 mb-1.5">
                   {edu.institution}
                 </p>
 
-                <div className="flex items-center gap-1 text-xs text-slate-500 dark:text-slate-400 mb-3">
-                  <MapPin className="w-3 h-3 text-brand-500" />
+                <div className="flex items-center gap-1.5 text-xs text-slate-500 dark:text-slate-400 mb-3.5">
+                  <MapPin className="w-3.5 h-3.5 text-brand-500" />
                   <span>{edu.location}</span>
                 </div>
 

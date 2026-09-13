@@ -18,7 +18,7 @@ export const HeroSection: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl">
           {/* Status Badge */}
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-medium bg-brand-100 text-brand-700 dark:bg-brand-950 dark:text-brand-300 border border-brand-200 dark:border-brand-800/80 mb-6">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md text-xs font-medium bg-brand-50/90 text-brand-700 dark:bg-brand-950/80 dark:text-brand-200 border border-brand-200/80 dark:border-brand-800/80 mb-6 shadow-sm">
             <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
             <span>{language === 'es' ? 'Disponible para nuevos proyectos y roles' : 'Available for new roles & projects'}</span>
           </div>
@@ -73,7 +73,7 @@ export const HeroSection: React.FC = () => {
 
             <a
               href="#contact"
-              className="flex items-center gap-2 px-5 py-3 rounded-xl text-sm font-semibold border border-slate-300 dark:border-navy-700 hover:bg-slate-100 dark:hover:bg-navy-800 text-slate-800 dark:text-slate-200 transition-all"
+              className="flex items-center gap-2 px-5 py-3 rounded-lg text-sm font-semibold border border-slate-300/80 dark:border-navy-700/80 bg-white/60 dark:bg-navy-900/50 hover:bg-slate-100/80 dark:hover:bg-navy-800/80 text-slate-800 dark:text-slate-200 shadow-sm transition-all"
             >
               <span>{labels.actions.contactMe}</span>
               <ArrowRight className="w-4 h-4" />
@@ -86,7 +86,7 @@ export const HeroSection: React.FC = () => {
                   href={contact.linkedinUrl}
                   target="_blank"
                   rel="noreferrer"
-                  className="p-2.5 rounded-xl border border-slate-300 dark:border-navy-700 text-slate-600 dark:text-slate-300 hover:text-brand-600 dark:hover:text-accent-400 hover:bg-slate-100 dark:hover:bg-navy-800 transition-colors"
+                  className="p-2.5 rounded-lg border border-slate-300/80 dark:border-navy-700/80 bg-white/50 dark:bg-navy-900/40 text-slate-600 dark:text-slate-300 hover:text-brand-600 dark:hover:text-accent-400 hover:bg-slate-100/80 dark:hover:bg-navy-800/80 shadow-sm transition-all"
                   aria-label="LinkedIn"
                 >
                   <LinkedinIcon className="w-4 h-4" />
@@ -97,7 +97,7 @@ export const HeroSection: React.FC = () => {
                   href={contact.githubUrl}
                   target="_blank"
                   rel="noreferrer"
-                  className="p-2.5 rounded-xl border border-slate-300 dark:border-navy-700 text-slate-600 dark:text-slate-300 hover:text-brand-600 dark:hover:text-accent-400 hover:bg-slate-100 dark:hover:bg-navy-800 transition-colors"
+                  className="p-2.5 rounded-lg border border-slate-300/80 dark:border-navy-700/80 bg-white/50 dark:bg-navy-900/40 text-slate-600 dark:text-slate-300 hover:text-brand-600 dark:hover:text-accent-400 hover:bg-slate-100/80 dark:hover:bg-navy-800/80 shadow-sm transition-all"
                   aria-label="GitHub"
                 >
                   <GithubIcon className="w-4 h-4" />
@@ -108,7 +108,7 @@ export const HeroSection: React.FC = () => {
                   href={contact.portfolioUrl}
                   target="_blank"
                   rel="noreferrer"
-                  className="p-2.5 rounded-xl border border-slate-300 dark:border-navy-700 text-slate-600 dark:text-slate-300 hover:text-brand-600 dark:hover:text-accent-400 hover:bg-slate-100 dark:hover:bg-navy-800 transition-colors"
+                  className="p-2.5 rounded-lg border border-slate-300/80 dark:border-navy-700/80 bg-white/50 dark:bg-navy-900/40 text-slate-600 dark:text-slate-300 hover:text-brand-600 dark:hover:text-accent-400 hover:bg-slate-100/80 dark:hover:bg-navy-800/80 shadow-sm transition-all"
                   aria-label="Portfolio"
                 >
                   <ExternalLink className="w-4 h-4" />

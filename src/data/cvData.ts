@@ -50,77 +50,34 @@ export const cvData: BilingualCVData = {
     experience: [
       {
         id: "exp-1",
-        company: "Voiceflip Technologies, Inc.",
-        role: "Azure Cloud Solutions Architect",
-        location: "Canadá (Remoto)",
+        company: "Forsyte I.T. Solutions, LLC",
+        role: "Developer Team Lead",
+        location: "Estados Unidos (Remoto desde Costa Rica)",
         workplaceType: "Remote",
-        startDate: "2026/06",
-        endDate: "Presente",
+        startDate: "2019/02",
+        endDate: "2026/02",
         responsibilities: [
-          "Diseño y despliegue de aplicaciones nativas de la nube en Azure Kubernetes Service utilizando Docker, Kubernetes, Azure Container Registry, Application Gateway, Key Vault, PostgreSQL, Redis y pipelines automatizados de CI/CD.",
-          "Diseño de soluciones de automatización e inteligencia web integradas con IA utilizando Django, Scrapy, Playwright, Celery, procesamiento con LLMs, RAG y orquestación de tareas asíncronas.",
-          "Liderazgo en decisiones de arquitectura y despliegue en entornos de desarrollo y staging, abarcando escalabilidad, monitoreo de salud, redes, seguridad e integración de servicios cloud."
+          "Liderazgo técnico y supervisión de desarrolladores, coordinando asignación de tareas, seguimiento de avances de sprints y estándares de calidad de código en múltiples proyectos empresariales.",
+          "Administración y mantenimiento de pipelines de CI/CD en Azure DevOps y gestión de recursos en Microsoft Azure para proyectos corporativos (Cloud Connect, PIM Extender, CMI, EMTIP y Guardian365).",
+          "Liderazgo en el diseño y migración arquitectónica a .NET 6 para las soluciones insignia Guardian365 y Cloud Connect.",
+          "Diseño, creación y publicación de paquetes internos NuGet reutilizables entre proyectos, optimizando la velocidad del equipo y unificando la arquitectura técnica."
         ],
-        technologies: ["Azure", "Kubernetes", "Docker", "PostgreSQL", "Redis", "RAG", "LLMs", "CI/CD"]
+        technologies: [".NET 6", "C#", "Microsoft Azure", "Azure DevOps", "CI/CD", "NuGet", "REST APIs", "Scrum"]
       },
       {
         id: "exp-2",
-        company: "Voiceflip Technologies, Inc.",
-        role: "AI-Integrated Web Scraping & Automation Engineer Specialist",
-        location: "Canadá (Remoto)",
-        workplaceType: "Remote",
-        startDate: "2025/06",
-        endDate: "2026/06",
-        responsibilities: [
-          "Diseño e integración de flujos de inteligencia de contenido asistidos por IA combinando rastreo web, automatización de navegadores, extracción de contenido, LLMs, RAG, almacenamiento vectorial, embeddings y servicios Azure AI/OpenAI.",
-          "Ingeniería de arquitectura escalable de web scraping y automatización con Scrapy y Playwright, soportando sitios renderizados con JavaScript, procesamiento de binarios, sesiones autenticadas reutilizables y ejecución programada.",
-          "Ampliación de capacidades de autenticación a nivel de ruta: login por formularios, Bearer tokens, autenticación básica, API keys, OAuth2 y cookies."
-        ],
-        technologies: ["Python", "Playwright", "Scrapy", "Azure AI", "OpenAI", "Vector DB"]
-      },
-      {
-        id: "exp-3",
-        company: "Foresight Solutions, S.R.L.",
-        role: "Fundador y Director Ejecutivo (CEO)",
-        location: "Costa Rica (Presencial)",
+        company: "Valuación Digital",
+        role: "Full Stack Developer",
+        location: "Ciudad Quesada, Alajuela, Costa Rica",
         workplaceType: "On-Site",
-        startDate: "2022/02",
-        endDate: "Presente",
+        startDate: "2015/01",
+        endDate: "2019/01",
         responsibilities: [
-          "Fundación y dirección de empresa de consultoría tecnológica que ofrece desarrollo de software, IA, infraestructura en la nube, redes y servicios de TI a micro, pequeñas y medianas empresas.",
-          "Gestión de relaciones comerciales, administración general y supervisión del ciclo de vida completo de proyectos de software."
+          "Desarrollo, mejora continua y mantenimiento de un sistema de alta criticidad para la generación de avalúos para diversas entidades bancarias, utilizado diariamente por ingenieros y peritos.",
+          "Comunicación técnica directa y colaboración con ingenieros peritos y entidades financieras para resolver consultas, levantar requerimientos y solucionar incidencias operativas.",
+          "Implementación de funcionalidades de negocio, optimización de consultas en SQL Server y ejecución de pruebas de calidad (QA) y estabilidad del sistema."
         ],
-        technologies: ["Cloud", "AI Consulting", "Business Management", "Software Development"]
-      },
-      {
-        id: "exp-4",
-        company: "Universidad Técnica Nacional (UTN)",
-        role: "Docente y Profesor Universitario II",
-        location: "Costa Rica (Presencial)",
-        workplaceType: "On-Site",
-        startDate: "2018/02",
-        endDate: "Presente",
-        responsibilities: [
-          "Impartición de cursos en Ingeniería del Software, Ingeniería de TI, Ciencias Básicas y Administración de Recursos Tecnológicos.",
-          "Liderazgo en programas de extensión y acción social comunitaria antes de la transición a la facultad formal.",
-          "Mentoría y formación de nuevas generaciones de profesionales en tecnología."
-        ],
-        technologies: ["Software Engineering Education", "Mentorship", "Algorithms", "Databases"]
-      },
-      {
-        id: "exp-5",
-        company: "Forsyte I.T. Solutions, LLC. (Microsoft Gold Partner)",
-        role: "LATAM General Manager & Senior .NET Team Lead / DevOps",
-        location: "Estados Unidos (Remoto desde CR)",
-        workplaceType: "Remote",
-        startDate: "2019/02",
-        endDate: "2024/10",
-        responsibilities: [
-          "Progresión a través de múltiples roles técnicos y gerenciales: desde MDM Cloud Engineer y Desarrollador Full Stack .NET hasta Gerente General para Latinoamérica.",
-          "Dirección de equipos de desarrollo .NET, gestión de entregables e implementación de prácticas DevOps en Azure.",
-          "Gestión de operaciones de servicio y alineación con los estándares corporativos de Microsoft Gold Partner."
-        ],
-        technologies: [".NET", "C#", "Azure DevOps", "Cloud Management", "Team Leadership"]
+        technologies: ["C#", ".NET", "SQL Server", "ASP.NET", "JavaScript", "QA & Testing"]
       }
     ],
     education: [
@@ -268,77 +225,34 @@ export const cvData: BilingualCVData = {
     experience: [
       {
         id: "exp-1",
-        company: "Voiceflip Technologies, Inc.",
-        role: "Azure Cloud Solutions Architect",
-        location: "Canada (Remote / Work-from-Home)",
+        company: "Forsyte I.T. Solutions, LLC",
+        role: "Developer Team Lead",
+        location: "United States (Remote from Costa Rica)",
         workplaceType: "Remote",
-        startDate: "2026/06",
-        endDate: "Present",
+        startDate: "2019/02",
+        endDate: "2026/02",
         responsibilities: [
-          "Architected and deployed cloud-native applications on Azure Kubernetes Service using Docker, Kubernetes, Azure Container Registry, Application Gateway, Key Vault, PostgreSQL, Redis, and automated CI/CD pipelines.",
-          "Designed AI-integrated web intelligence and automation solutions using Django, Scrapy, Playwright, Celery, LLM processing, RAG, and asynchronous task orchestration.",
-          "Led architecture and deployment decisions across development and staging environments, including scalability, health monitoring, networking, security, and cloud service integration."
+          "Led and supervised development teams, managing sprint task assignments, monitoring project milestones, and enforcing clean code standards across multiple enterprise initiatives.",
+          "Architected and maintained CI/CD pipelines in Azure DevOps and managed Microsoft Azure cloud infrastructure and resources for mission-critical enterprise projects (Cloud Connect, PIM Extender, CMI, EMTIP, and Guardian365).",
+          "Spearheaded the architectural migration and development of new versions on .NET 6 for flagship platforms Guardian365 and Cloud Connect.",
+          "Authored, versioned, and published shared internal NuGet packages reused across multiple company projects, accelerating developer productivity and architectural consistency."
         ],
-        technologies: ["Azure", "Kubernetes", "Docker", "PostgreSQL", "Redis", "RAG", "LLMs", "CI/CD"]
+        technologies: [".NET 6", "C#", "Microsoft Azure", "Azure DevOps", "CI/CD", "NuGet", "REST APIs", "Scrum"]
       },
       {
         id: "exp-2",
-        company: "Voiceflip Technologies, Inc.",
-        role: "AI-Integrated Web Scraping & Automation Engineer Specialist",
-        location: "Canada (Remote / Work-from-Home)",
-        workplaceType: "Remote",
-        startDate: "2025/06",
-        endDate: "2026/06",
-        responsibilities: [
-          "Designed and integrated AI-assisted content intelligence workflows combining web crawling, browser automation, document/content extraction, LLM processing, Retrieval-Augmented Generation (RAG), vector storage, embeddings, and Azure AI/OpenAI services.",
-          "Engineered a scalable web scraping and browser-automation architecture using Scrapy and Playwright, supporting JavaScript-rendered websites, binary content handling, reusable authenticated sessions, route-specific crawling, and scheduled execution.",
-          "Expanded authentication capabilities from site-level configuration to route-level authentication, supporting form-based login, Bearer tokens, Basic Authentication, API keys, OAuth2, and cookies."
-        ],
-        technologies: ["Python", "Playwright", "Scrapy", "Azure AI", "OpenAI", "Vector DB"]
-      },
-      {
-        id: "exp-3",
-        company: "Foresight Solutions, S.R.L.",
-        role: "Founder & CEO: General Manager and Administrator",
-        location: "Costa Rica (On-Site)",
+        company: "Valuación Digital",
+        role: "Full Stack Developer",
+        location: "Ciudad Quesada, Alajuela, Costa Rica",
         workplaceType: "On-Site",
-        startDate: "2022/02",
-        endDate: "Present",
+        startDate: "2015/01",
+        endDate: "2019/01",
         responsibilities: [
-          "Founded and manage a technology consulting company providing software development, AI, cloud infrastructure, networking, and IT services to micro, small, and medium-sized enterprises.",
-          "Led business development, administrative leadership, and complete lifecycle execution of custom enterprise software projects."
+          "Developed, enhanced, and maintained a mission-critical appraisal valuation system used by major banking and financial entities and certified appraisal engineers.",
+          "Directly engaged with appraisal engineers and banking stakeholders to troubleshoot operational issues, clarify business requirements, and provide rapid technical support.",
+          "Implemented core application features, optimized complex SQL Server database queries, and performed rigorous quality assurance and testing to ensure compliance with financial standards."
         ],
-        technologies: ["Cloud", "AI Consulting", "Business Management", "Software Development"]
-      },
-      {
-        id: "exp-4",
-        company: "Universidad Técnica Nacional (UTN)",
-        role: "Lecturer and Professor II",
-        location: "Costa Rica (On-Site)",
-        workplaceType: "On-Site",
-        startDate: "2018/02",
-        endDate: "Present",
-        responsibilities: [
-          "Taught courses across Software Engineering, IT Engineering, Finances, Basic Sciences, and Shared Services Management programs for university degrees.",
-          "Delivered extension and social-action programs and projects before transitioning to a formal faculty appointment.",
-          "Mentored and guided undergraduate engineering students in real-world software architecture practices."
-        ],
-        technologies: ["Software Engineering Education", "Mentorship", "Algorithms", "Databases"]
-      },
-      {
-        id: "exp-5",
-        company: "Forsyte I.T. Solutions, LLC. (Microsoft Gold Partner)",
-        role: "LATAM General Manager & Senior .NET Development Team Lead / DevOps",
-        location: "United States (Remote from CR)",
-        workplaceType: "Remote",
-        startDate: "2019/02",
-        endDate: "2024/10",
-        responsibilities: [
-          "Progressed through multiple technical and management roles, starting as an MDM Cloud Engineer and .NET Full Stack Developer and culminating as LATAM General Manager.",
-          "Directed .NET engineering teams, managed client milestones, and instituted CI/CD and DevOps standards on Microsoft Azure.",
-          "Maintained service excellence and operational alignment with Microsoft Gold Partner quality benchmarks."
-        ],
-        technologies: [".NET", "C#", "Azure DevOps", "Cloud Management", "Team Leadership"]
+        technologies: ["C#", ".NET", "SQL Server", "ASP.NET", "JavaScript", "QA & Testing"]
       }
     ],
     education: [

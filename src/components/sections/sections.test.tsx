@@ -36,7 +36,7 @@ describe('CV Content Sections', () => {
 
   it('renders ExperienceSection with timeline items', () => {
     renderWithProviders(<ExperienceSection />);
-    expect(screen.getAllByText(/Voiceflip Technologies, Inc./i).length).toBeGreaterThan(0);
+    expect(screen.getAllByText(/Forsyte I.T. Solutions, LLC/i).length).toBeGreaterThan(0);
   });
 
   it('renders EducationSection and CertificationsSection', () => {

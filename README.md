@@ -115,4 +115,27 @@ Para desplegar tu CV en la web de forma gratuita con Firebase Hosting:
    ```
    *Este comando compilará tu aplicación (`npm run build`) y la subirá de inmediato a Firebase Hosting.*
 
-Tu currículum quedará disponible en una URL pública con HTTPS gratuito (ej. `https://tu-proyecto.web.app` o `https://tu-proyecto.firebaseapp.com`), y podrás asociar tu propio dominio personalizado en cualquier momento.
+Tu currículum quedará disponible en una URL pública con HTTPS gratuito (ej. `https://curriculum-88377.web.app`), y podrás asociar tu propio dominio personalizado en cualquier momento.
+
+---
+
+## 🤖 Despliegue Continuo con GitHub Actions (CI/CD)
+
+El repositorio incluye un pipeline automatizado en [`.github/workflows/deploy.yml`](file:///.github/workflows/deploy.yml) configurado para desplegar **únicamente cuando se suben cambios a la rama `main`**.
+
+### Flujo del Pipeline:
+1. Detecta `push` en la rama `main`.
+2. Instala dependencias (`npm ci`).
+3. Ejecuta la suite de pruebas unitarias (`npm test`).
+4. Genera el bundle de producción (`npm run build`).
+5. Publica automáticamente en Firebase Hosting (`curriculum-88377`).
+
+### Configuración del Secreto en GitHub:
+Para que GitHub tenga autorización de desplegar en tu proyecto de Firebase:
+1. Ve a la consola de Firebase: [Configuración del proyecto > Cuentas de servicio](https://console.firebase.google.com/project/curriculum-88377/settings/serviceaccounts/adminsdk).
+2. Haz clic en **Generar nueva clave privada** (descargará un archivo `.json`).
+3. En tu repositorio de GitHub, ve a **Settings** > **Secrets and variables** > **Actions**.
+4. Haz clic en **New repository secret**.
+5. Nombra el secreto: `FIREBASE_SERVICE_ACCOUNT_CURRICULUM_88377` (o `FIREBASE_SERVICE_ACCOUNT`).
+6. Pega todo el contenido del archivo JSON y guarda.
+

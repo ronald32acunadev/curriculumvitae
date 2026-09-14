@@ -15,16 +15,16 @@ export const SectionHeader: React.FC<SectionHeaderProps> = ({
     <div className="mb-8">
       <div className="flex items-center gap-3">
         {icon && (
-          <div className="p-2.5 rounded-lg bg-brand-500/10 dark:bg-brand-950/60 border border-brand-500/20 dark:border-brand-800/50 text-brand-600 dark:text-accent-400 shadow-sm">
+          <div className="p-2.5 rounded-lg bg-brand-50 border border-brand-200 text-brand-600 shadow-sm">
             {icon}
           </div>
         )}
         <div>
-          <h2 className="text-2xl font-bold tracking-tight text-slate-900 dark:text-white">
+          <h2 className="text-2xl font-bold tracking-tight text-slate-900">
             {title}
           </h2>
           {subtitle && (
-            <p className="mt-1 text-sm text-slate-600 dark:text-slate-400">
+            <p className="mt-1 text-sm text-slate-600">
               {subtitle}
             </p>
           )}

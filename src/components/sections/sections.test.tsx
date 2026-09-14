@@ -8,15 +8,12 @@ import { ExperienceSection } from './ExperienceSection';
 import { EducationSection } from './EducationSection';
 import { CertificationsSection } from './CertificationsSection';
 import { ContactSection } from './ContactSection';
-import { ThemeProvider } from '../../context/ThemeContext';
 import { LanguageProvider } from '../../context/LanguageContext';
 
 describe('CV Content Sections', () => {
   const renderWithProviders = (component: React.ReactNode) =>
     render(
-      <ThemeProvider>
-        <LanguageProvider>{component}</LanguageProvider>
-      </ThemeProvider>
+      <LanguageProvider>{component}</LanguageProvider>
     );
 
   it('renders HeroSection with name, headline and quick actions', () => {

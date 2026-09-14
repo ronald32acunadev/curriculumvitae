@@ -1,34 +1,11 @@
 import { describe, it, expect, beforeEach } from 'vitest';
 import { renderHook, act } from '@testing-library/react';
 import type { ReactNode } from 'react';
-import { ThemeProvider, useTheme } from './ThemeContext';
 import { LanguageProvider, useLanguage } from './LanguageContext';
 
 describe('Global Contexts', () => {
   beforeEach(() => {
     localStorage.clear();
-    document.documentElement.classList.remove('dark');
-  });
-
-  describe('ThemeContext', () => {
-    it('defaults to dark or saved theme and toggles correctly', () => {
-      const wrapper = ({ children }: { children: ReactNode }) => (
-        <ThemeProvider>{children}</ThemeProvider>
-      );
-
-      const { result } = renderHook(() => useTheme(), { wrapper });
-
-      expect(['light', 'dark']).toContain(result.current.theme);
-
-      const initialTheme = result.current.theme;
-      act(() => {
-        result.current.toggleTheme();
-      });
-
-      const newTheme = initialTheme === 'dark' ? 'light' : 'dark';
-      expect(result.current.theme).toBe(newTheme);
-      expect(localStorage.getItem('cv_theme')).toBe(newTheme);
-    });
   });
 
   describe('LanguageContext', () => {

@@ -13,13 +13,13 @@ export const Badge: React.FC<BadgeProps> = ({
 }) => {
   const variants = {
     primary:
-      'bg-brand-50/90 text-brand-700 border-brand-200/80 dark:bg-brand-950/80 dark:text-brand-100 dark:border-brand-800/80',
+      'bg-brand-50 text-brand-700 border-brand-200',
     secondary:
-      'bg-slate-100/80 text-slate-700 border-slate-200/80 dark:bg-navy-800/80 dark:text-slate-200 dark:border-navy-700/80',
+      'bg-slate-100 text-slate-700 border-slate-200',
     accent:
-      'bg-accent-400/10 text-accent-600 border-accent-400/30 dark:bg-accent-950/50 dark:text-accent-300 dark:border-accent-400/30',
+      'bg-accent-50 text-accent-600 border-accent-200',
     outline:
-      'bg-transparent text-slate-700 border-slate-300/80 dark:text-slate-200 dark:border-navy-700/80',
+      'bg-transparent text-slate-700 border-slate-300',
   };
 
   return (

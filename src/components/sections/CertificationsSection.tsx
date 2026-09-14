@@ -13,7 +13,7 @@ export const CertificationsSection: React.FC = () => {
   }
 
   return (
-    <section id="certifications" className="py-12 border-t border-slate-200/60 dark:border-navy-800/60">
+    <section id="certifications" className="py-12 border-t border-slate-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeader
           title={labels.sections.certificationsTitle}
@@ -25,11 +25,11 @@ export const CertificationsSection: React.FC = () => {
             <Card
               key={cert.id}
               hoverEffect
-              className="p-5 flex flex-col justify-between border-t-[3px] border-t-brand-600 dark:border-t-brand-500"
+              className="p-5 flex flex-col justify-between border-t-[3px] border-t-brand-600"
             >
               <div>
                 <div className="flex items-start justify-between gap-2 mb-2">
-                  <span className="text-xs font-semibold text-brand-600 dark:text-accent-400">
+                  <span className="text-xs font-semibold text-brand-600">
                     {cert.issuer}
                   </span>
                   <Badge variant="secondary" className="text-[10px]">
@@ -37,25 +37,25 @@ export const CertificationsSection: React.FC = () => {
                   </Badge>
                 </div>
 
-                <h3 className="text-sm font-bold text-slate-900 dark:text-white leading-snug mb-3">
+                <h3 className="text-sm font-bold text-slate-900 leading-snug mb-3">
                   {cert.title}
                 </h3>
               </div>
 
-              <div className="pt-3 border-t border-slate-100/90 dark:border-navy-800/80 flex items-center justify-between">
+              <div className="pt-3 border-t border-slate-100 flex items-center justify-between">
                 {cert.verificationUrl ? (
                   <a
                     href={cert.verificationUrl}
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-flex items-center gap-1.5 text-xs font-semibold text-brand-600 dark:text-accent-400 hover:text-brand-700 dark:hover:text-accent-300 transition-colors"
+                    className="inline-flex items-center gap-1.5 text-xs font-semibold text-brand-600 hover:text-brand-700 transition-colors"
                   >
                     <ShieldCheck className="w-3.5 h-3.5" />
                     <span>{labels.actions.viewCredential}</span>
                     <ExternalLink className="w-3 h-3 ml-0.5" />
                   </a>
                 ) : (
-                  <span className="inline-flex items-center gap-1 text-xs text-slate-500 dark:text-slate-400">
+                  <span className="inline-flex items-center gap-1 text-xs text-slate-500">
                     <ShieldCheck className="w-3.5 h-3.5" />
                     <span>{labels.actions.physicalCertificate}</span>
                   </span>

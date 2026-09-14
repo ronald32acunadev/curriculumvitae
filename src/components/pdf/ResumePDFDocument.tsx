@@ -196,6 +196,16 @@ export const ResumePDFDocument: React.FC<ResumePDFProps> = ({ data, language }) 
                 • <Link src={contact.githubUrl} style={styles.link}>GitHub</Link>
               </Text>
             )}
+            {contact.instagramUrl && (
+              <Text style={styles.contactItem}>
+                • <Link src={contact.instagramUrl} style={styles.link}>Instagram</Link>
+              </Text>
+            )}
+            {contact.facebookUrl && (
+              <Text style={styles.contactItem}>
+                • <Link src={contact.facebookUrl} style={styles.link}>Facebook</Link>
+              </Text>
+            )}
             {contact.portfolioUrl && (
               <Text style={styles.contactItem}>
                 • <Link src={contact.portfolioUrl} style={styles.link}>Portfolio</Link>

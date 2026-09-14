@@ -8,6 +8,8 @@ export interface ContactInfo {
   linkedinUrl?: string;
   githubUrl?: string;
   portfolioUrl?: string;
+  instagramUrl?: string;
+  facebookUrl?: string;
 }
 
 export interface SkillCategory {

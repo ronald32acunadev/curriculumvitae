@@ -1,17 +1,14 @@
 import { describe, it, expect } from 'vitest';
 import { render, screen, fireEvent } from '@testing-library/react';
 import { Navbar } from './Navbar';
-import { ThemeProvider } from '../../context/ThemeContext';
 import { LanguageProvider } from '../../context/LanguageContext';
 
 describe('Navbar Component', () => {
   const renderNavbar = () =>
     render(
-      <ThemeProvider>
-        <LanguageProvider>
-          <Navbar />
-        </LanguageProvider>
-      </ThemeProvider>
+      <LanguageProvider>
+        <Navbar />
+      </LanguageProvider>
     );
 
   it('renders navigation brand and sections', () => {

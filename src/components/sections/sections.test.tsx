@@ -1,4 +1,4 @@
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect, beforeEach } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import React from 'react';
 import { HeroSection } from './HeroSection';
@@ -11,6 +11,10 @@ import { ContactSection } from './ContactSection';
 import { LanguageProvider } from '../../context/LanguageContext';
 
 describe('CV Content Sections', () => {
+  beforeEach(() => {
+    localStorage.setItem('cv_language', 'es');
+  });
+
   const renderWithProviders = (component: React.ReactNode) =>
     render(
       <LanguageProvider>{component}</LanguageProvider>
@@ -19,6 +23,13 @@ describe('CV Content Sections', () => {
   it('renders HeroSection with name, headline and quick actions', () => {
     renderWithProviders(<HeroSection />);
     expect(screen.getByRole('heading', { level: 1 })).toBeInTheDocument();
+    expect(screen.getByText(/Hola, soy/i)).toBeInTheDocument();
+  });
+
+  it('renders HeroSection in English when language is en', () => {
+    localStorage.setItem('cv_language', 'en');
+    renderWithProviders(<HeroSection />);
+    expect(screen.getByText(/Hi, I'm/i)).toBeInTheDocument();
   });
 
   it('renders SummarySection with executive summary', () => {

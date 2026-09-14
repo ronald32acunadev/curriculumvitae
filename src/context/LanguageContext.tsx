@@ -14,11 +14,34 @@ interface LanguageContextType {
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
+export const detectBrowserLanguage = (): Language => {
+  if (typeof navigator !== 'undefined') {
+    const languages =
+      navigator.languages && navigator.languages.length > 0
+        ? navigator.languages
+        : [navigator.language];
+
+    for (const lang of languages) {
+      if (!lang) continue;
+      const normalized = lang.toLowerCase();
+      if (normalized.startsWith('es')) {
+        return 'es';
+      }
+      if (normalized.startsWith('en')) {
+        return 'en';
+      }
+    }
+  }
+  return 'en'; // Default to English
+};
+
+export const detectSystemLanguage = detectBrowserLanguage;
+
 export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
   const [language, setLanguageState] = useState<Language>(() => {
     const saved = localStorage.getItem('cv_language') as Language | null;
     if (saved === 'es' || saved === 'en') return saved;
-    return 'es'; // Default to Spanish
+    return detectBrowserLanguage();
   });
 
   useEffect(() => {

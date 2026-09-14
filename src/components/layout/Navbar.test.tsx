@@ -1,9 +1,13 @@
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect, beforeEach } from 'vitest';
 import { render, screen, fireEvent } from '@testing-library/react';
 import { Navbar } from './Navbar';
 import { LanguageProvider } from '../../context/LanguageContext';
 
 describe('Navbar Component', () => {
+  beforeEach(() => {
+    localStorage.setItem('cv_language', 'es');
+  });
+
   const renderNavbar = () =>
     render(
       <LanguageProvider>

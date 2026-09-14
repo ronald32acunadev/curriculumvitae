@@ -6,7 +6,7 @@ import { Mail, Phone, MapPin, Copy, Check, Send } from 'lucide-react';
 import { GithubIcon, LinkedinIcon, InstagramIcon, FacebookIcon } from '../ui/Icons';
 
 export const ContactSection: React.FC = () => {
-  const { data, labels } = useLanguage();
+  const { data, labels, language } = useLanguage();
   const { contact } = data;
   const [copied, setCopied] = useState(false);
 
@@ -43,7 +43,7 @@ export const ContactSection: React.FC = () => {
               {contact.secondaryEmails && contact.secondaryEmails.length > 0 && (
                 <div className="mb-4 pt-2.5 border-t border-slate-100">
                   <span className="text-[10px] uppercase font-semibold text-slate-400 block mb-1">
-                    Otros correos:
+                    {language === 'es' ? 'Otros correos:' : 'Other emails:'}
                   </span>
                   {contact.secondaryEmails.map((alt) => (
                     <a
@@ -81,7 +81,7 @@ export const ContactSection: React.FC = () => {
                 <Phone className="w-5 h-5" />
               </div>
               <h3 className="text-base font-bold text-slate-900 mb-1">
-                Teléfono / WhatsApp
+                {language === 'es' ? 'Teléfono / WhatsApp' : 'Phone / WhatsApp'}
               </h3>
               <p className="text-xs text-slate-500 mb-4">
                 {contact.phone}
@@ -92,7 +92,7 @@ export const ContactSection: React.FC = () => {
                 href={`tel:${contact.phone}`}
                 className="block text-center py-2 px-3 rounded-md text-xs font-semibold border border-slate-300 hover:bg-slate-100 text-slate-800 shadow-sm transition-all"
               >
-                Llamar
+                {language === 'es' ? 'Llamar' : 'Call'}
               </a>
             </div>
           </Card>
@@ -104,7 +104,7 @@ export const ContactSection: React.FC = () => {
                 <MapPin className="w-5 h-5" />
               </div>
               <h3 className="text-base font-bold text-slate-900 mb-1">
-                Ubicación & Redes
+                {language === 'es' ? 'Ubicación & Redes' : 'Location & Socials'}
               </h3>
               <p className="text-xs text-slate-500 mb-4">
                 {contact.location}

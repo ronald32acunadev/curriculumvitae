@@ -27,20 +27,20 @@ const styles = StyleSheet.create({
   header: {
     marginBottom: 14,
     borderBottomWidth: 1.5,
-    borderBottomColor: '#2563eb',
+    borderBottomColor: '#0062eb',
     paddingBottom: 8,
   },
   name: {
     fontSize: 20,
     fontFamily: 'Helvetica-Bold',
-    color: '#1e3a8a',
+    color: '#091e4a',
     letterSpacing: 0.5,
     marginBottom: 2,
   },
   headline: {
     fontSize: 10.5,
     fontFamily: 'Helvetica-Bold',
-    color: '#2563eb',
+    color: '#0062eb',
     marginBottom: 5,
   },
   contactRow: {
@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
     marginRight: 6,
   },
   link: {
-    color: '#2563eb',
+    color: '#0062eb',
     textDecoration: 'none',
   },
   section: {
@@ -64,7 +64,7 @@ const styles = StyleSheet.create({
   sectionTitle: {
     fontSize: 11,
     fontFamily: 'Helvetica-Bold',
-    color: '#1e3a8a',
+    color: '#0050c7',
     borderBottomWidth: 1,
     borderBottomColor: '#cbd5e1',
     paddingBottom: 2,
@@ -112,7 +112,7 @@ const styles = StyleSheet.create({
     fontSize: 8.5,
   },
   expCompany: {
-    color: '#2563eb',
+    color: '#0062eb',
     fontFamily: 'Helvetica-Bold',
   },
   expLocation: {
@@ -128,7 +128,7 @@ const styles = StyleSheet.create({
   bulletPoint: {
     width: 8,
     fontSize: 9,
-    color: '#2563eb',
+    color: '#0062eb',
   },
   bulletText: {
     flex: 1,

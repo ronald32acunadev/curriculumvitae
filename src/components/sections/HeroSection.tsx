@@ -25,7 +25,8 @@ export const HeroSection: React.FC = () => {
             </div>
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-900 leading-[1.15]">
-            Hola, soy <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-600 via-brand-500 to-accent-500">{contact.name}</span>
+            {language === 'es' ? 'Hola, soy ' : "Hi, I'm "}
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-600 via-brand-500 to-accent-500">{contact.name}</span>
           </h1>
 
           <p className="mt-4 text-xl sm:text-2xl font-semibold text-brand-700">

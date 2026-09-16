@@ -139,3 +139,41 @@ Para que GitHub tenga autorización de desplegar en tu proyecto de Firebase:
 5. Nombra el secreto: `FIREBASE_SERVICE_ACCOUNT_CURRICULUM_88377` (o `FIREBASE_SERVICE_ACCOUNT`).
 6. Pega todo el contenido del archivo JSON y guarda.
 
+---
+
+## 🐳 Ejecución Local en Docker (Docker Desktop)
+
+El proyecto cuenta con un `Dockerfile` multi-etapa y un `docker-compose.yml` listos para compilar la aplicación y servirla a través de un servidor web Nginx ultraligero y optimizado.
+
+### Requisitos Previos:
+- Tener **Docker Desktop** instalado y abierto en tu computadora.
+
+### Opción 1: Usando Docker Compose (Recomendado)
+Desde la raíz del proyecto, ejecuta en tu terminal:
+```bash
+# Compilar la imagen y levantar el contenedor en segundo plano
+docker compose up --build -d
+```
+Abre en tu navegador: [http://localhost:8080](http://localhost:8080)
+
+Para detener el contenedor:
+```bash
+docker compose down
+```
+
+### Opción 2: Usando Docker CLI directamente
+```bash
+# 1. Construir la imagen local
+docker build -t cv-portfolio .
+
+# 2. Correr el contenedor mapeando el puerto 8080 al 80 interno
+docker run -d --name cv-portfolio -p 8080:80 cv-portfolio
+```
+
+### Gestión desde la interfaz gráfica de Docker Desktop:
+1. Abre **Docker Desktop**.
+2. En la pestaña **Containers**, verás el contenedor `cv-portfolio` en verde (*Running*).
+3. Puedes hacer clic en el enlace `8080:80` o en el icono de abrir en el navegador para ver tu aplicación en vivo.
+4. Para ver logs, detenerlo o reiniciarlo, usa los controles interactivos de la interfaz de Docker Desktop.
+
+

@@ -1,0 +1,31 @@
+# Dependencies and build artifacts
+node_modules/
+dist/
+dist-ssr/
+build/
+.firebase/
+*.tsbuildinfo
+
+# Package lock files (use package.json instead)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Static assets and binary files
+public/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.ico
+*.webp
+*.woff
+*.woff2
+*.ttf
+*.pdf
+*.docx
+
+# Environment variables
+.env
+.env.*

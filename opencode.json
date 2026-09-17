@@ -1,0 +1,28 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "watcher": {
+    "ignore": [
+      "**/node_modules/**",
+      "**/dist/**",
+      "**/dist-ssr/**",
+      "**/.git/**",
+      "**/.firebase/**",
+      "**/public/**",
+      "**/package-lock.json",
+      "**/yarn.lock",
+      "**/pnpm-lock.yaml",
+      "**/*.tsbuildinfo",
+      "**/*.docx",
+      "**/*.png",
+      "**/*.jpg",
+      "**/*.jpeg",
+      "**/*.svg",
+      "**/*.ico",
+      "**/*.webp",
+      "**/*.woff",
+      "**/*.woff2",
+      "**/*.ttf",
+      "**/*.pdf"
+    ]
+  }
+}

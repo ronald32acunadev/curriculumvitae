@@ -21,7 +21,6 @@ listDependencies(pkg.dependencies || {}, 'Runtime dependencies');
 listDependencies(pkg.devDependencies || {}, 'Development dependencies');
 
 // Check for missing type declarations (typings) in devDependencies.
-const missingTypes: string[] = [];
 for (const dep of Object.keys(pkg.dependencies || {})) {
   if (!dep.startsWith('@types/') && !pkg.devDependencies?.[`@types/${dep}`]) {
     // simple heuristic: if the package is written in TS, it might need typings

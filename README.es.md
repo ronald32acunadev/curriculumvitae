@@ -270,6 +270,7 @@ curriculumvitae/
 ├── Dockerfile                    # Contenedor multi-etapa optimizado
 ├── docker-compose.yml            # Configuración para Docker Compose
 ├── firebase.json                 # Reglas de enrutamiento y caché en Firebase
+├── LICENSE                       # Licencia de código abierto MIT
 ├── nginx.conf                    # Configuración optimizada de Nginx
 ├── package.json                  # Scripts y dependencias
 ├── tailwind.config.js            # Configuración de Tailwind y colores de marca
@@ -316,6 +317,11 @@ export interface ContactInfo {
   facebookUrl?: string;
 }
 
+export interface SkillCategory {
+  categoryName: string;
+  skills: string[];
+}
+
 export interface ExperienceItem {
   id: string;
   company: string;
@@ -328,12 +334,36 @@ export interface ExperienceItem {
   technologies?: string[];
 }
 
+export interface EducationItem {
+  id: string;
+  degree: string;
+  institution: string;
+  location: string;
+  startDate: string;
+  endDate: string;
+  description?: string;
+}
+
+export interface CertificationItem {
+  id: string;
+  title: string;
+  issuer: string;
+  date: string;
+  verificationUrl?: string;
+  credentialType?: 'online' | 'physical';
+}
+
+export interface LanguageItem {
+  name: string;
+  level: string;
+}
+
 export interface CVContent {
   contact: ContactInfo;
   summary: string;
-  languages: Array<{ name: string; level: string }>;
+  languages: LanguageItem[];
   softSkills: string[];
-  technicalSkills: Array<{ categoryName: string; skills: string[] }>;
+  technicalSkills: SkillCategory[];
   experience: ExperienceItem[];
   education: EducationItem[];
   certifications: CertificationItem[];

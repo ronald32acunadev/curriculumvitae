@@ -58,5 +58,6 @@ Consequence: a content change is an edit to `cvData.ts` in **both** `es` and `en
 
 ## Repository notes
 
-- `docs/superpowers/` holds the original design spec and implementation plan for the portfolio.
-- `AGENTS.md`, `.agents/`, `Agents/`, `skills/`, and `opencode.json` are agent tooling configuration, not application code.
+- `AGENTS.md`, `.agents/`, `.claude/commands/`, `.opencode/`, `skills/`, and `opencode.json` are agent tooling configuration, not application code. `scripts/ask_local_llm.py` is the CLI fallback for prompting the local LLMs when the MCP tool times out (see AGENTS.md).
+- The "Project Context" section of AGENTS.md still describes this repo as a reusable setup template; the application described above is what actually lives here.
+- Feature backlogs required by AGENTS.md go in `docs/userstories/<feature-name>/README.md` (the `docs/` directory does not exist yet).
